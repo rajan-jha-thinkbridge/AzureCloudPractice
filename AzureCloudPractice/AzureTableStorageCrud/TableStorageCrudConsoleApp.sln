@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorageCrudConsoleApp", "TableStorageCrudConsoleApp.csproj", "{EADB78BA-32BE-4398-8789-0044AE4687A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableStorageCrudConsoleApp", "TableStorageCrudConsoleApp.csproj", "{EADB78BA-32BE-4398-8789-0044AE4687A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlob", "..\AzureBlob\AzureBlob.csproj", "{22814B97-5953-4B8E-AB89-CCF827BD1E62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EADB78BA-32BE-4398-8789-0044AE4687A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADB78BA-32BE-4398-8789-0044AE4687A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADB78BA-32BE-4398-8789-0044AE4687A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22814B97-5953-4B8E-AB89-CCF827BD1E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22814B97-5953-4B8E-AB89-CCF827BD1E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22814B97-5953-4B8E-AB89-CCF827BD1E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22814B97-5953-4B8E-AB89-CCF827BD1E62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
