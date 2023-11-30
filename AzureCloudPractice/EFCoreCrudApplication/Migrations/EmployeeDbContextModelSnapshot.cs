@@ -40,7 +40,7 @@ namespace EFCoreCrudApplication.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Addresse");
+                    b.ToTable("Addresse", (string)null);
                 });
 
             modelBuilder.Entity("EFCoreCrudApplication.Model.Employee", b =>
@@ -51,17 +51,13 @@ namespace EFCoreCrudApplication.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Department")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("employees");
+                    b.ToTable("employees", (string)null);
                 });
 
             modelBuilder.Entity("EFCoreCrudApplication.Model.Address", b =>
