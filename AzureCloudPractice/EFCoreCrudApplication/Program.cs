@@ -21,7 +21,7 @@ while (isRunning)
         switch (choice)
         {
             case 1:
-                CrudOperation.addEmployee();
+                CrudOperation.AddEmployee();
                 break;
             case 2:
                 CrudOperation.UpdateEmployee();
