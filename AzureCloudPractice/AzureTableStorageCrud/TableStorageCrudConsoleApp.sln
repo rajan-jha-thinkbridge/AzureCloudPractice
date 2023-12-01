@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreCrudApplication", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureQueue", "..\AzureQueue\AzureQueue.csproj", "{7370F80E-BF78-4958-8D75-E82B68399389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions", "..\AzureFunctions\AzureFunctions.csproj", "{36B8E88F-CBE9-48D3-972E-DE16C160003C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctions", "..\AzureFunctions\AzureFunctions.csproj", "{36B8E88F-CBE9-48D3-972E-DE16C160003C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionConsoleApp", "..\AzureFunctionConsoleApp\AzureFunctionConsoleApp.csproj", "{9CA91587-E64F-48E7-B3CE-06E87CD62BCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionConsoleApp", "..\AzureFunctionConsoleApp\AzureFunctionConsoleApp.csproj", "{9CA91587-E64F-48E7-B3CE-06E87CD62BCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
