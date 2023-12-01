@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableStorageCrudConsoleApp"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlob", "..\AzureBlob\AzureBlob.csproj", "{22814B97-5953-4B8E-AB89-CCF827BD1E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCrudApplication", "..\EFCoreCrudApplication\EFCoreCrudApplication.csproj", "{9925CC97-337B-4AF0-99CF-93F9A63DD5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreCrudApplication", "..\EFCoreCrudApplication\EFCoreCrudApplication.csproj", "{9925CC97-337B-4AF0-99CF-93F9A63DD5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureQueue", "..\AzureQueue\AzureQueue.csproj", "{7370F80E-BF78-4958-8D75-E82B68399389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9925CC97-337B-4AF0-99CF-93F9A63DD5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9925CC97-337B-4AF0-99CF-93F9A63DD5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9925CC97-337B-4AF0-99CF-93F9A63DD5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7370F80E-BF78-4958-8D75-E82B68399389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7370F80E-BF78-4958-8D75-E82B68399389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7370F80E-BF78-4958-8D75-E82B68399389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7370F80E-BF78-4958-8D75-E82B68399389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
